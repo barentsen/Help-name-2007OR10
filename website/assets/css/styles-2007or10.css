@@ -1,0 +1,175 @@
+body {
+    background: #0c0808;
+}
+
+h1, h2 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+h1, h2, .nav > li > a, .intro-content > p {
+    color: #ddd;
+    font-family: 'Dosis';
+}
+
+body, h3, h4, h5, p, a, section header p, footer {
+    color: #ddd;
+    font-family: 'Open Sans';
+}
+
+a {
+    color: #badbf6;
+}
+
+a:hover {
+    color: #8197a9;
+}
+
+.navbar {
+    background: #332724;
+}
+
+.navbar-toggle {
+    border: 1px solid #ddd;
+}
+
+.navbar-toggle .icon-bar {
+    background: #ddd;
+}
+
+.nav > li > a:hover {
+    background: #654b3e;
+}
+
+.nav > li > a {
+    color: #ddd;
+    font-size: 15px;
+}
+
+ul.filter-list {
+    background: #332724;
+}
+
+li.filter.on, li.filter:hover {
+    background: #654b3e;
+}
+
+.intro-content h1 {
+    font-size: 9em;
+    text-transform: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .intro-content h1 {
+        font-size: 6em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .intro-content h1 {
+        font-size: 4em;
+    }
+}
+
+.intro-content p {
+    font-size: 1.7em;
+}
+
+section#who, section#what, section#names, section#vote, section#faq {
+    margin: 130px 0 130px 0;
+}
+
+div.faces {
+    padding-top: 60px;
+}
+
+p.team-job {
+    color: #aaa;
+}
+
+div.candidate-name {
+    background: #271d1c;
+    padding: 30px 40px 40px 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.candidate-name-title {
+    font-family: 'Dosis';
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+a.read-more {
+    color: #eee;
+}
+
+#faq h3 {
+    font-size: 2em;
+    margin-top: 1.5em;
+    text-transform: none
+}
+
+footer {
+    background: #271d1c;
+}
+
+
+/******************************
+ Voting form
+******************************/
+div.voteform {
+    background: #271d1c;
+    padding: 30px;
+}
+
+#vote p, #vote h2, #vote h5 {
+    color: #fff;
+}
+
+#vote header {
+    margin-bottom: 40px;
+}
+
+#vote header h2::after {
+  background-color: #fff; 
+}
+
+#vote label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#vote .radio label {
+    font-size: 24px;
+}
+
+#vote .radio input {
+    margin-top: 10px;
+}
+
+#vote .form-group {
+    margin-bottom: 35px;
+}
+
+#vote .form-control {
+    background-color: #f6f9fa;
+    color: #2c2c2c;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#vote input.form-control {
+    height: 50px;
+}
+
+#vote button:hover {
+    color: #2c2c2c;
+}
