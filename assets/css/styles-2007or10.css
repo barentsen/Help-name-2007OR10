@@ -118,6 +118,14 @@ footer {
     background: #271d1c;
 }
 
+/******************************
+Audio controls
+******************************/
+.audiocontrol {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
 
 /******************************
  Voting form
